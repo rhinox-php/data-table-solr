@@ -1,0 +1,17 @@
+{
+    "name": "rhinox/data-table-solr",
+    "require": {
+        "rhinox/data-table": "^0.9.0",
+        "solarium/solarium": "~6.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Rhino\\DataTable\\Solr\\": "classes/"
+        },
+        "files": [
+            "include.php"
+        ]
+    }
+}
